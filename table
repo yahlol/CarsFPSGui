@@ -1,0 +1,32 @@
+getgenv().CFG = {
+    Config = { 
+        ["Prediction"] = 0.128, 
+        ["Fov"] = 30, 
+        ["FovSides"] = 12, 
+        ["HitChance"] = 100,
+        ["HitParts"] = {"Head", "UpperTorso", "LowerTorso", "RightFoot", "LeftFoot"},
+        ["ShowFov"] = false, 
+        ["Keybind"] = Enum.KeyCode.Z, 
+    },
+    FPSGui = {
+        ["Enable"] = true,
+        ["Keybind"] = "q"
+    },
+    AntiAim = {
+        ["Enable"] = false,
+        ["Keybind"] = Enum.KeyCode.X,
+    },
+    CustomVelocity = {
+        ["Enable"] = true,
+        ["X_Velocity"] = -9383,
+        ["Y_Velocity"] = 5021,
+        ["Z_Velocity"] = -5924,
+        ["Keybind"] = Enum.KeyCode.V,
+    },
+    AimViewer = {
+        ["Enable"] = true,
+        ["Toggle"] = "p",
+        ["ViewPlayer"] = "x",
+        ["Color"] = Color3.fromRGB(255,0,0)
+    }
+}

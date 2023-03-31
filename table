@@ -1,7 +1,7 @@
 getgenv().CFG = {
     Config = { 
-        ["Prediction"] = 0.128, 
-        ["Fov"] = 30, 
+        ["Prediction"] = 0.131, 
+        ["Fov"] = 24, 
         ["FovSides"] = 12, 
         ["HitChance"] = 100,
         ["HitParts"] = {"Head", "UpperTorso", "LowerTorso", "RightFoot", "LeftFoot"},
@@ -17,14 +17,14 @@ getgenv().CFG = {
         ["Keybind"] = Enum.KeyCode.X,
     },
     CustomVelocity = {
-        ["Enable"] = true,
+        ["Enable"] = false,
         ["X_Velocity"] = -9383,
         ["Y_Velocity"] = 5021,
         ["Z_Velocity"] = -5924,
         ["Keybind"] = Enum.KeyCode.V,
     },
     AimViewer = {
-        ["Enable"] = true,
+        ["Enable"] = false,
         ["Toggle"] = "p",
         ["ViewPlayer"] = "x",
         ["Color"] = Color3.fromRGB(255,0,0)
